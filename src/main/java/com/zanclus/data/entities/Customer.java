@@ -17,7 +17,7 @@ import javax.persistence.*;
 public class Customer {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue
     @JsonProperty("id")
     private Long id;
 
